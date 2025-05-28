@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+#app {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+#users {
+    width: 250px;
+}
+
+.user {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.user:hover {
+    background-color: #f0f0f0;
+}
+
+.post {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+}
